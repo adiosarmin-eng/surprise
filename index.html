@@ -91,8 +91,8 @@ border-radius:15px;
 
 
 @keyframes float{
-0%{transform:translateY(100vh);}
-100%{transform:translateY(-10vh);}
+0%{transform:translateY(0vh);}
+100%{transform:translateY(-120vh);}
 }
 
 /* confetti */
@@ -206,7 +206,7 @@ Let's Celebrate 🎈
 
 <!-- IMAGE OPTION -->
 
-<img src="C:\Users\windows 10\Desktop\BS\IMAGE\BS-WISH.jpeg" class="message-img" height="500px" width="300px">
+<img src="IMAGE\BS-WISH.jpeg" class="message-img" height="500px" width="300px">
 
 </div>
 
@@ -215,6 +215,7 @@ Let's Celebrate 🎈
 <script>
 function playMusic(){
 document.getElementById("bgmusic").muted = false;
+document.getElementById("bgmusic").volume = 0.9;
 document.getElementById("bgmusic").play();
 
 }
